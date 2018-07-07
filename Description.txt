@@ -1,0 +1,17 @@
+Hello Mr.Srinivas,
+
+I finished the Weather Application Project. I pushed the code and instructions to Github.
+
+I built a Java Application that accepts the cityName from user and prints out the 5day/3hour data, 16day/daily data and graph comparing temperatures. This is all done by clicking a single "go" button. Each output is defined as a seperate thread. The data is displayed in different tabs. The UI is designed using Java Swing.
+
+I used MongoDb to store the data. Whenever a user clicks the button to display data, the information retrieved from API and the date/time when user made the request is stored in the form of document. I used two collections- one to store 5day data and the other one to store 16day data. Also, I have included another button that prints all the documents present in Mongo database onto the console. 
+
+Regarding Specification 3a&3b, I accepted the cityName from the user to make it user-interactive. If you would like me to to store the city names in a config file and use Java's Timer Task to display the weather data of 5 predefined cities by making a call to the API for every 5 minutes, I can make that modification as well. Please let me know if this is how you want it to be.
+
+Also, I wanted to let you know, that the weather data in openweathermap.org for any city is the same. 
+And, the 16day/daily API in openweathermap.org only displays the data for 7 days. I tried changing the cnt (count) variable to 16 but it landed on page-not-found error on their website. 
+
+The instructions to run the application, libraries used and description about the application is given in the github link.
+
+I am attaching the video of the application and few snapshots.
+The link to the project is: 

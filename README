@@ -1,0 +1,23 @@
+Steps to Start Mongo Server:
+
+After installing MongoDB and Mongo-java-driver-3.8.0.jar, create database and log directories.
+Command- md "\data\db" "\data\log"
+
+Start MongoDB database
+"C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+In another command prompt, connect to MongoDB
+"C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
+
+Steps to run the Applications
+To run this weather application, we need the following jar files:
+json-simple-1.1.jar
+jcommon-1.0.23.jar
+jfreechart-1.0.19.jar
+mongo-java-driver-3.8.0.jar
+
+To add all these jars to your project's class path, right click on the project, go to properties -> libraries. Click on "Add JAR/Folder" and select the required jar files.
+
+Run WeatherInfo.java file to run the application.
+
+
