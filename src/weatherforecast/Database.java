@@ -50,7 +50,7 @@ public class Database {
       
         Document document = new Document("title", "Weather") 
                     .append("id", i)
-                    .append("DateUserAccessed", date)
+                    .append("DateUserRequested", date)
                     .append("description", "FiveDay Weather Data") 
                     .append("temp", temps) 
                     .append("date", fiveDate)
@@ -58,9 +58,10 @@ public class Database {
                     collection.insertOne(document); 
     }
     
-    public void storeSixteenDayData(int j, double min_temp16, double max_temp16, String cityName) {
+    public void storeSixteenDayData(int j, double min_temp16, double max_temp16, String cityName, LocalDateTime date) {
         Document document = new Document("title", "Weather") 
                     .append("id", j)
+                    .append("DateUserRequested", date)
                     .append("description", "FiveDay Weather Data") 
                     .append("min_temp", min_temp16) 
                     .append("max_temp", max_temp16)

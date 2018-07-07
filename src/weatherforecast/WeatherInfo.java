@@ -208,7 +208,7 @@ public class WeatherInfo extends javax.swing.JFrame {
                 max_temp16=sixteen.max[j];
                 jTextArea2.setText(jTextArea2.getText() + "\n" +"Date: "+sixteen.date[j] );
                 jTextArea2.setText(jTextArea2.getText() + "\n" +"Min Temp: "+min_temp16 + "\n" +"Max Temp: " +max_temp16);
-                database.storeSixteenDayData(j, min_temp16, max_temp16, cityName);
+                database.storeSixteenDayData(j, min_temp16, max_temp16, cityName, curDate);
                 jTextArea2.setText(jTextArea2.getText() +"\n" + "................................");
 
             }  
