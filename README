@@ -1,23 +1,28 @@
+Weather Forecast is a Java Application that accepts the cityName from user and prints out the 5day/3hour data, 16day/daily data and graph comparing temperatures. This is all done by clicking a single "go" button. Each output is defined as a seperate thread. The data is displayed in different tabs. The UI is designed using Java Swing.
+
+Below are the steps to set up the project:
+
 Steps to Start Mongo Server:
 
-After installing MongoDB and Mongo-java-driver-3.8.0.jar, create database and log directories.
+1. After installing MongoDB and Mongo-java-driver-3.8.0.jar, create database and log directories.
 Command- md "\data\db" "\data\log"
 
-Start MongoDB database
+2. Start MongoDB database
 "C:\Program Files\MongoDB\Server\4.0\bin\mongod.exe" --dbpath="c:\data\db"
 
-In another command prompt, connect to MongoDB
+3. In another command prompt, connect to MongoDB
 "C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe"
 
-Steps to run the Applications
-To run this weather application, we need the following jar files:
+Steps to run the Application:
+
+1. To run this weather application, we need the following jar files:
 json-simple-1.1.jar
 jcommon-1.0.23.jar
 jfreechart-1.0.19.jar
 mongo-java-driver-3.8.0.jar
 
-To add all these jars to your project's class path, right click on the project, go to properties -> libraries. Click on "Add JAR/Folder" and select the required jar files.
+2. To add all these jars to your project's class path, right click on the project, go to properties -> libraries. Click on "Add JAR/Folder" and select the required jar files.
 
-Run WeatherInfo.java file to run the application.
+3. Run WeatherInfo.java file to run the application.
 
 
